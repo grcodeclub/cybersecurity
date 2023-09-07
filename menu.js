@@ -9,6 +9,6 @@ $(document).ready(function() {
     $('.sidebarMenuInner').append(menuLink);
     menuLink = ' <li><a href="#">Έγγραφα</a></li>';
     $('.sidebarMenuInner').append(menuLink);
-    menuLink = ' <li><a href="https://grcodeclub.github.io/system/linux.html">Linux</a></li>';
+    menuLink = ' <li><a href="https://grcodeclub.github.io/linux">Linux</a></li>';
     $('.sidebarMenuInner').append(menuLink);
   });
