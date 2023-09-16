@@ -21,108 +21,99 @@
         <div class="container">
             <section class="show_desktop"> <!--Αρχή Εμφάνιση Υπολογιστή-->
                 <div class="Header"> <!--Αρχή Επικεφαλίδας-->
-                    <table>
-                        <tr>
-                            <td><img src="https://grcodeclub.github.io/file/logo_and_graphic/logo.png" class="logo"/></td>
-                            <td><h1 class="header_text"><a href="https://grcodeclub.github.io/"><span class="header_text">GrCode Club</span></a></h1></td>
-                            <td><a href="https://github.com/GrCodeClub/cybersecurity/edit/main/tools/list.html" target="_blank"><img src="https://grcodeclub.github.io/file/logo_and_graphic/edit.png"  width="60px"></a></td>
-                        </tr>
-                    </table> 
+                    <div class="layout">
+                        <div><img src="https://grcodeclub.github.io/file/logo_and_graphic/logo.png" class="logo"/></div>
+                        <div><h1 class="header_text"><a href="https://grcodeclub.github.io/"><span class="header_text">GrCode Club</span></a></h1></div>
+                        <div><a href="https://github.com/GrCodeClub/cybersecurity/edit/main/tools/list.html" target="_blank"><img src="https://grcodeclub.github.io/file/logo_and_graphic/edit.png"  width="60px"></a></div>
+                    </div> 
                 </div> <!--Τέλος Επικεφαλίδας-->
-           
                 <div class="Menu"> <!--Αρχή Menu-->
                     <div id="sidebarMenu" style="  overflow: auto;">
                         <ul class="sidebarMenuInner"></ul>
                     </div>
                 </div><!--Τέλος Menu-->
-
             </section> <!--Τέλος Εμφάνιση Υπολογιστή-->
 
             <section class="show_mobile">  <!--Αρχή εμφάνιση σε κινητά-->
                 <div class="Header"> <!--Αρχή Επικεφαλίδας σε κινητά-->
-                    <table>
-                        <tr>
-                            <td><img src="https://grcodeclub.github.io/file/logo_and_graphic/logo.png" class="logo"/></td>
-                            <td><h1 class="header_text"><a href="https://grcodeclub.github.io/"><span class="header_text">GrCode Club</span></a></h1></td>
-                        </tr>
-                    </table> 
+                    <div class="layout">
+                        <div><img src="https://grcodeclub.github.io/file/logo_and_graphic/logo.png" class="logo"/></div>
+                        <div><h1 class="header_text"><a href="https://grcodeclub.github.io/"><span class="header_text">GrCode Club</span></a></h1></div>
+                    </div> 
                 </div> <!--Τέλος Επικεφαλίδας σε κινητά -->
-                <table>  <!--Αρχή Menu σε κινητά-->
-                    <tr>
-                        <td>
-                            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
-                            <label for="openSidebarMenu" class="sidebarIconToggle">
-                                <div class="spinner diagonal part-1"></div>
-                                <div class="spinner horizontal"></div>
-                                <div class="spinner diagonal part-2"></div>
-                            </label>
-                            <div id="sidebarMenu" style="overflow: auto;">
-                                <ul class="sidebarMenuInner"></ul>
-                            </div>
-                        </td>
-                    </tr>
-                </table> <!--Τέλος Menu σε κινητά-->
+                <!--Αρχή Menu σε κινητά-->
+                <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+                <label for="openSidebarMenu" class="sidebarIconToggle">
+                    <div class="spinner diagonal part-1"></div>
+                    <div class="spinner horizontal"></div>
+                    <div class="spinner diagonal part-2"></div>
+                </label>
+                <div id="sidebarMenu" style="overflow: auto;">
+                    <ul class="sidebarMenuInner"></ul>
+                </div><!--Τέλος Menu σε κινητά-->
             </section> <!--Τέλος εμφάνιση σε κινητά-->
 
             <div class="Text"> <!--Αρχή Κειμένου-->
                 <h1 class="title">Εργαλεία</h1>
-                <div class="card-container">
+                <div class="text_bg">
+                    <div class="card-container">
   
-                    <div class="card" style="width: 400px;">
-                        <h3>Network - Web</h3>
-                        <table class="style2">
-                            <tr>
-                                <th>Εργαλείο</th>
-                                <th>Περιγραφή</th>
-                            </tr>
-                            <tr>
-                                <td>nmap</td>
-                                <td>Το Nmap είναι ένα πρόγραμμα για εξερεύνηση δικτύου</td>
-                            </tr>
-                            <tr>
-                                <td>Wireshark</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>Burp Suite</td>
-                                <td>Το Burp Suite είναι μια ολοκληρωμένη πλατφόρμα για την εκτέλεση δοκιμών ασφαλείας εφαρμογών web. </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="card" style="width: 400px;">
-                        <h3>Stego</h3>
-                        <table class="style2">
-                            <tr>
-                                <th>Εργαλείο</th>
-                                <th>Περιγραφή</th>
-                            </tr>
-                            <tr>
-                                <td>binwalk</td>
-                                <td>Το Binwalk είναι ένα εργαλείο που έχει σχεδιαστεί για την αναγνώριση αρχείων και κώδικα που είναι ενσωματωμένα μέσα σε εικόνες.</td>
-                            </tr>
-                            <tr>
-                                <td>exiftool</td>
-                                <td>Διαβάζει και γραφεί metadata σε αρχεία</td>
-                            </tr>
-                        </table>
-                </div>
-                    <div class="card" style="width: 400px;">
-                        <h3>Brute-force Attack</h3>
+                        <div class="card" style="width: 400px;">
+                            <h3>Network - Web</h3>
                             <table class="style2">
                                 <tr>
                                     <th>Εργαλείο</th>
                                     <th>Περιγραφή</th>
                                 </tr>
                                 <tr>
-                                    <td>fcrackzip</td>
-                                    <td>Είναι σε θέση να σπάσει αρχεία zip που προστατεύονται με κωδικό πρόσβασης με  brute force ή dictionary based attacks</td>
+                                    <td>nmap</td>
+                                    <td>Το Nmap είναι ένα πρόγραμμα για εξερεύνηση δικτύου</td>
                                 </tr>
                                 <tr>
-                                    <td>gobuster</td>
-                                    <td>Το Gobuster είναι ένα εργαλείο που χρησιμοποιείται για Brute-force URIs, συμπεριλαμβανομένων καταλόγων και αρχείων, καθώς και DNS subdomains.</td>
+                                    <td>Wireshark</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Burp Suite</td>
+                                    <td>Το Burp Suite είναι μια ολοκληρωμένη πλατφόρμα για την εκτέλεση δοκιμών ασφαλείας εφαρμογών web. </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="card" style="width: 400px;">
+                            <h3>Stego</h3>
+                            <table class="style2">
+                                <tr>
+                                    <th>Εργαλείο</th>
+                                    <th>Περιγραφή</th>
+                                </tr>
+                                <tr>
+                                    <td>binwalk</td>
+                                    <td>Το Binwalk είναι ένα εργαλείο που έχει σχεδιαστεί για την αναγνώριση αρχείων και κώδικα που είναι ενσωματωμένα μέσα σε εικόνες.</td>
+                                </tr>
+                                <tr>
+                                    <td>exiftool</td>
+                                    <td>Διαβάζει και γραφεί metadata σε αρχεία</td>
                                 </tr>
                             </table>
                     </div>
+                        <div class="card" style="width: 400px;">
+                            <h3>Brute-force Attack</h3>
+                                <table class="style2">
+                                    <tr>
+                                        <th>Εργαλείο</th>
+                                        <th>Περιγραφή</th>
+                                    </tr>
+                                    <tr>
+                                        <td>fcrackzip</td>
+                                        <td>Είναι σε θέση να σπάσει αρχεία zip που προστατεύονται με κωδικό πρόσβασης με  brute force ή dictionary based attacks</td>
+                                    </tr>
+                                    <tr>
+                                        <td>gobuster</td>
+                                        <td>Το Gobuster είναι ένα εργαλείο που χρησιμοποιείται για Brute-force URIs, συμπεριλαμβανομένων καταλόγων και αρχείων, καθώς και DNS subdomains.</td>
+                                    </tr>
+                                </table>
+                        </div>
+                </div>
                 </div><!-- Τέλος Background Κειμένου-->
             </div> <!--Τέλος Κειμένου-->
 
