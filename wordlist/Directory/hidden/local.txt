@@ -1,0 +1,5 @@
+.local/bin
+.local/include
+.local/lib
+.local/share
+.local/state
