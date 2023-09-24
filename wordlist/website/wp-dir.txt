@@ -1,0 +1,17 @@
+wp-admin/
+wp-admin/user/
+wp-admin/network/
+wp-admin/maint/
+wp-admin/js
+wp-admin/import/
+wp-admin/css/
+wp-admin/images/
+wp-admin/includes/
+wp-content/
+wp-content/plugins/
+wp-content/plugins/akismet/img/
+wp-content/plugins/akismet/
+wp-content/themes/
+wp-content/themes/
+wp-content/themes/
+  
