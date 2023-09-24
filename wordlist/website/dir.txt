@@ -1,6 +1,8 @@
 images/
+user/
 css/
 import/
 includes/
-wp-admin/
 js/
+plugins/
+themes/
