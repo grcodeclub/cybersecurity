@@ -4,7 +4,12 @@
 .git
 .gnupg
 .grable
+.gitkeep
+.htaccess
 .local
+.editorconfig
+.gitignore
+.travis.yml
 .thumbnails
 .mozilla
 .vscode
