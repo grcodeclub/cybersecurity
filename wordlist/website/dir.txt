@@ -1,6 +1,8 @@
 images/
 images/smilies/
 images/crystal/
+system/
+cookies/
 images/icons/
 homepage/
 auth/
@@ -8,6 +10,7 @@ students/
 research/
 en/
 gr/
+el/
 contact/
 user/
 var/
