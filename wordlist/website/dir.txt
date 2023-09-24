@@ -2,7 +2,13 @@ images/
 images/smilies/
 images/crystal/
 images/icons/
+homepage/
 auth/
+students/
+research/
+en/
+gr/
+contact/
 user/
 var/
 info/
