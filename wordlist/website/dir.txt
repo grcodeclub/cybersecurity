@@ -7,6 +7,7 @@ css/
 comments/
 font/
 fonts/
+default/
 style/
 icons/
 ico/
@@ -83,6 +84,7 @@ dev/
 plupload/
 upload/
 swfupload/
+themes/default/
 jquery/
 thickbox/
 NET/
