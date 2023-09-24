@@ -5,6 +5,7 @@ images/icons/
 auth/
 user/
 var/
+info/
 var/cache/
 modules/
 modules/auth/
