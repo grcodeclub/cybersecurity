@@ -199,6 +199,7 @@ feed-rss.php
 post-formats.php
 native.php
 string.php
+manual.php
 post-template.php
 post-thumbnail-template.php
 post.php
