@@ -1,6 +1,0 @@
-index.html
-readme.txt
-search.html
-replace.html
-rule.html
-main.html
