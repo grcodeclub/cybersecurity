@@ -1,0 +1,17 @@
+.config
+.cache
+.ssh
+.git
+.gnupg
+.grable
+.local
+.thumbnails
+.mozilla
+.vscode
+.npm
+.docker
+.thumbnails
+.wineprefix
+.wine
+.java
+.dbus
