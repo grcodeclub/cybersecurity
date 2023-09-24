@@ -2,10 +2,12 @@ images/
 images/smilies/
 images/crystal/
 images/icons/
+auth/
 user/
 var/
 var/cache/
 modules/
+modules/auth/
 var/logs/
 web/
 web/bundles/
