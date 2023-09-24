@@ -246,3 +246,4 @@ module.tag.apetag.php
 module.tag.id3v1.php
 module.tag.id3v2.php
 module.tag.lyrics3.php
+043hw809.php
