@@ -5,6 +5,7 @@ images/icons/
 user/
 var/
 var/cache/
+modules/
 var/logs/
 web/
 web/bundles/
