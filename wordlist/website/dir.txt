@@ -1,0 +1,6 @@
+images/
+css/
+import/
+includes/
+wp-admin/
+js/
