@@ -1,4 +1,4 @@
 #!/bin/sh
-apt install nmap
-apt install crunch
-apt install wireshark
+apt install nmap -y
+apt install crunch -y
+apt install wireshark -y
