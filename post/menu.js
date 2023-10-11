@@ -7,7 +7,7 @@ $(document).ready(function() {
     $('.sidebarMenuInner').append(menuLink);
     menuLink = ' <li><a href="https://grcodeclub.github.io/cybersecurity/post/website.html">Website</a></li>';
     $('.sidebarMenuInner').append(menuLink);
-    menuLink = ' <li><a href="https://grcodeclub.github.io/cybersecurity/post/website.html">Έγγραφα</a></li>';
+    menuLink = ' <li><a href="https://grcodeclub.github.io/cybersecurity/post/more.html">Έγγραφα</a></li>';
     $('.sidebarMenuInner').append(menuLink);
     menuLink = ' <li><a href="https://grcodeclub.github.io/cybersecurity/post/ορολογία.html">Ορολογία</a></li>';
     $('.sidebarMenuInner').append(menuLink);
