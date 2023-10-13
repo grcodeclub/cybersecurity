@@ -12,6 +12,9 @@
         <link rel="stylesheet" href="https://grcodeclub.github.io/css/layout.css">
         <link rel="stylesheet" href="https://grcodeclub.github.io/css/list.css">
         <link rel="stylesheet" href="https://grcodeclub.github.io/css/body.css">
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/code_bg.css" />
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/prism.css" />
+        <script src="https://grcodeclub.github.io/js/prism.js"></script>
         <link rel='icon' type='image/png' href='https://grcodeclub.github.io/file/logo/black_logo.png'>
         <link rel="stylesheet" href="https://grcodeclub.github.io/css/card.css">
         <title> GrCode Club</title>
@@ -54,67 +57,32 @@
             </section> <!--Τέλος εμφάνιση σε κινητά-->
 
             <div class="Text"> <!--Αρχή Κειμένου-->
-                <h1 class="title">Εργαλεία</h1>
-                <p><h3><a href="./tools/install_tools.sh" class="link_open">Εγκατάσταση(.sh)</a></h3></p>
                 <div class="text_bg">
-                    <div class="card-container">
-  
-                        <div class="card" style="width: 400px;">
-                            <h3>Network - Web</h3>
-                            <table class="style2">
-                                <tr>
-                                    <th>Εργαλείο</th>
-                                    <th>Περιγραφή</th>
-                                </tr>
-                                <tr>
-                                    <td><a href="./tools/nmap.html"><u>nmap</u></a></td>
-                                    <td>Το Nmap είναι ένα πρόγραμμα για εξερεύνηση δικτύου</td>
-                                </tr>
-                                <tr>
-                                    <td>Wireshark</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Burp Suite</td>
-                                    <td>Το Burp Suite είναι μια ολοκληρωμένη πλατφόρμα για την εκτέλεση δοκιμών ασφαλείας εφαρμογών web. </td>
-                                </tr>
-                            </table>
-                        </div>
-                        <div class="card" style="width: 400px;">
-                            <h3>Stego</h3>
-                            <table class="style2">
-                                <tr>
-                                    <th>Εργαλείο</th>
-                                    <th>Περιγραφή</th>
-                                </tr>
-                                <tr>
-                                    <td>binwalk</td>
-                                    <td>Το Binwalk είναι ένα εργαλείο που έχει σχεδιαστεί για την αναγνώριση αρχείων και κώδικα που είναι ενσωματωμένα μέσα σε εικόνες.</td>
-                                </tr>
-                                <tr>
-                                    <td>exiftool</td>
-                                    <td>Διαβάζει και γραφεί metadata σε αρχεία</td>
-                                </tr>
-                            </table>
-                    </div>
-                        <div class="card" style="width: 400px;">
-                            <h3>Brute-force Attack</h3>
-                                <table class="style2">
-                                    <tr>
-                                        <th>Εργαλείο</th>
-                                        <th>Περιγραφή</th>
-                                    </tr>
-                                    <tr>
-                                        <td>fcrackzip</td>
-                                        <td>Είναι σε θέση να σπάσει αρχεία zip που προστατεύονται με κωδικό πρόσβασης με  brute force ή dictionary based attacks</td>
-                                    </tr>
-                                    <tr>
-                                        <td>gobuster</td>
-                                        <td>Το Gobuster είναι ένα εργαλείο που χρησιμοποιείται για Brute-force URIs, συμπεριλαμβανομένων καταλόγων και αρχείων, καθώς και DNS subdomains.</td>
-                                    </tr>
-                                </table>
-                        </div>
-                </div>
+                    <h1 class="title">Εργαλεία</h1>
+                    <p><h3><a href="./tools/install_tools.sh" class="link_open">Εγκατάσταση(.sh)</a></h3></p>
+                    
+                    <h2 class="highlight_blue">Network - Web</h2>
+                    <p><b>Namp</b>:  Το Nmap είναι ένα πρόγραμμα για εξερεύνηση δικτύου.
+                    <br><a href="https://grcodeclub.github.io/cybersecurity/post/tools/nmap.html"><u>περισσότερα...</u></a></p>
+                    <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">sudo apt  install nmap</code></pre></div>                
+                    <p><b>Wireshark</b></p>
+                    <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">sudo apt install wireshark-qt</code></pre></div>                
+                    <p><b>Burp Suite</b>: Το Burp Suite είναι μια ολοκληρωμένη πλατφόρμα για την εκτέλεση δοκιμών ασφαλείας εφαρμογών web.
+                    <br><a href="https://portswigger.net/burp/releases#community"><u>Download Burp Suite</u></a></p>
+
+
+                    <h2 class="highlight_blue">Brute-force Attack</h2>
+                    <p><b>Gobuster</b>: Το Gobuster είναι ένα εργαλείο που χρησιμοποιείται για Brute-force URIs, συμπεριλαμβανομένων καταλόγων και αρχείων, καθώς και DNS subdomains.</p>
+                    <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">sudo apt install gobuster</code></pre></div>                
+                    <p><b>fcrackzip</b>: Είναι σε θέση να σπάσει αρχεία zip που προστατεύονται με κωδικό πρόσβασης με brute force ή dictionary based attacks</p>  
+                
+                    <h2 class="highlight_blue">Stego</h2>
+                    <p><b>binwalk</b>: Το Binwalk είναι ένα εργαλείο που έχει σχεδιαστεί για την αναγνώριση αρχείων και κώδικα που είναι ενσωματωμένα μέσα σε εικόνες.</p>
+                    <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">sudo apt install binwalk</code></pre></div>                
+                    <p><b>exiftool</b>: Διαβάζει και γραφεί metadata σε αρχεία</p>
+                    <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">sudo apt install libimage-exiftool-perl</code></pre></div>                
+
+                
                 </div><!-- Τέλος Background Κειμένου-->
             </div> <!--Τέλος Κειμένου-->
 
