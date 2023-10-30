@@ -10,4 +10,4 @@ apt install gobuster -y
 apt install binwalk -y
 apt install gobuster -y
 apt install libimage-exiftool-perl -y
-sudo apt install ghidra -y
+apt install ghidra -y
