@@ -1,6 +1,0 @@
-.grable/daemon
-.grable/native
-.grable/wrapper
-.grable/jdks
-.grable/caches
-.grable/android
