@@ -11,3 +11,4 @@ apt install binwalk -y
 apt install gobuster -y
 apt install libimage-exiftool-perl -y
 apt install ghidra -y
+apt-get install powershell -y
