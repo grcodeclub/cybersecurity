@@ -1,16 +1,16 @@
 $(document).ready(function() {
-    var  menuLink = '<li><a href="https://grcodeclub.github.io">Αρχική Σελίδα</a></li>';
+    var  menuLink = '<li><a href="https://grcodeclub.gr">Αρχική Σελίδα</a></li>';
     $('.sidebarMenuInner').append(menuLink);
-    menuLink = '<li><a href="https://grcodeclub.github.io/cybersecurity/">Κυβερνοασφάλεια</a></li>';
+    menuLink = '<li><a href="https://grcodeclub.gr/cybersecurity/">Κυβερνοασφάλεια</a></li>';
     $('.sidebarMenuInner').append(menuLink);
-    menuLink = ' <li><a href="https://grcodeclub.github.io/cybersecurity/tools">Εργαλεία</a></li>';
+    menuLink = ' <li><a href="https://grcodeclub.gr/cybersecurity/tools">Εργαλεία</a></li>';
     $('.sidebarMenuInner').append(menuLink);
-    menuLink = ' <li><a href="https://grcodeclub.github.io/cybersecurity/website">Website</a></li>';
+    menuLink = ' <li><a href="https://grcodeclub.gr/cybersecurity/website">Website</a></li>';
     $('.sidebarMenuInner').append(menuLink);
-    menuLink = ' <li><a href="https://grcodeclub.github.io/cybersecurity/post">Έγγραφα</a></li>';
+    menuLink = ' <li><a href="https://grcodeclub.gr/cybersecurity/post">Έγγραφα</a></li>';
     $('.sidebarMenuInner').append(menuLink);
-    menuLink = ' <li><a href="https://grcodeclub.github.io/cybersecurity/ορολογία">Ορολογία</a></li>';
+    menuLink = ' <li><a href="https://grcodeclub.gr/cybersecurity/ορολογία">Ορολογία</a></li>';
     $('.sidebarMenuInner').append(menuLink);
-    menuLink = ' <li><a href="https://grcodeclub.github.io/linux">Linux</a></li>';
+    menuLink = ' <li><a href="https://grcodeclub.gr/linux">Linux</a></li>';
     $('.sidebarMenuInner').append(menuLink);
   });
