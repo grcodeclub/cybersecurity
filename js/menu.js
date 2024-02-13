@@ -5,8 +5,6 @@ $(document).ready(function() {
     $('.sidebarMenuInner').append(menuLink);
     menuLink = ' <li><a href="https://grcodeclub.gr/cybersecurity/tools">Εργαλεία</a></li>';
     $('.sidebarMenuInner').append(menuLink);
-    menuLink = ' <li><a href="https://grcodeclub.gr/cybersecurity/website">Website</a></li>';
-    $('.sidebarMenuInner').append(menuLink);
     menuLink = ' <li><a href="https://grcodeclub.gr/cybersecurity/post">Έγγραφα</a></li>';
     $('.sidebarMenuInner').append(menuLink);
     menuLink = ' <li><a href="https://grcodeclub.gr/cybersecurity/ορολογία">Ορολογία</a></li>';
