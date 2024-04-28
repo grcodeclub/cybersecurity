@@ -1,0 +1,83 @@
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=0.8">
+        <meta property="og:image" content="https://grcodeclub.github.io/file/background/cybersecurity.png"/>
+        <meta property="og:title" content="Κυβερνοασφάλεια | SQL Injection">
+        <script src="https://grcodeclub.github.io/js/jquery.js"></script>
+        <script src="https://grcodeclub.github.io/cybersecurity/js/menu.js"></script>
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/header_and_footer.css">
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/main.css">
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/text.css">
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/table.css">
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/layout.css">
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/list.css">
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/body.css">
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/code_bg.css" />
+        <link rel="stylesheet" href="https://grcodeclub.github.io/css/prism.css" />
+        <script src="https://grcodeclub.github.io/js/prism.js"></script>
+        <link rel='icon' type='image/png' href='https://grcodeclub.github.io/file/logo/black_logo.png'>
+        <title> GrCode Club</title>
+    </head>
+
+    <body class="cybersecurity">
+        <div class="container">
+            <section class="show_desktop"> <!--Αρχή Εμφάνιση Υπολογιστή-->
+                <div class="Header"> <!--Αρχή Επικεφαλίδας-->
+                    <div class="layout">
+                        <div><img src="https://grcodeclub.github.io/file/logo_and_graphic/logo.png" class="logo"/></div>
+                        <div><h1 class="header_text"><a href="https://grcodeclub.github.io/"><span class="header_text">GrCode Club</span></a></h1></div>
+                    </div> 
+                </div> <!--Τέλος Επικεφαλίδας-->
+                <div class="Menu"> <!--Αρχή Menu-->
+                    <div id="sidebarMenu" style="  overflow: auto;">
+                        <ul class="sidebarMenuInner"></ul>
+                    </div>
+                </div><!--Τέλος Menu-->
+            </section> <!--Τέλος Εμφάνιση Υπολογιστή-->
+
+            <section class="show_mobile">  <!--Αρχή εμφάνιση σε κινητά-->
+                <div class="Header"> <!--Αρχή Επικεφαλίδας σε κινητά-->
+                    <div class="layout">
+                        <div><img src="https://grcodeclub.github.io/file/logo_and_graphic/logo.png" class="logo"/></div>
+                        <div><h1 class="header_text"><a href="https://grcodeclub.github.io/"><span class="header_text">GrCode Club</span></a></h1></div>
+                    </div> 
+                </div> <!--Τέλος Επικεφαλίδας σε κινητά -->
+                <!--Αρχή Menu σε κινητά-->
+                <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+                <label for="openSidebarMenu" class="sidebarIconToggle">
+                    <div class="spinner diagonal part-1"></div>
+                    <div class="spinner horizontal"></div>
+                    <div class="spinner diagonal part-2"></div>
+                </label>
+                <div id="sidebarMenu" style="overflow: auto;">
+                    <ul class="sidebarMenuInner"></ul>
+                </div><!--Τέλος Menu σε κινητά-->
+            </section> <!--Τέλος εμφάνιση σε κινητά-->
+
+            <div class="Text"> <!--Αρχή Κειμένου-->
+                <div class="text_bg">
+                    <h1 class="title">SQL Injection</h1>
+                    <p>Οι επιθέσεις SQL Injection  εκμεταλλεύονται μια ευπάθεια  υπάρχουν σε εφαρμογές web,
+                         οι οποίες επικοινωνούν με server όπου αποθηκεύονται βάσεις δεδομένων. </p>
+                    <p>
+                        Μια SQL επίθεση συμβαίνει όταν οι χάκερς πληκτρολογούν SQL κώδικα ερωτήματος σε μια φόρμα στο διαδίκτυο και η web εφαρμογή που 
+                        επεξεργάζεται αυτόν τον κώδικα δεν τον ελέγχει σωστά και τον επικυρώνει (δηλ. τον “εκτελεί”), επιτρέποντας με αυτόν τον τρόπο 
+                        τον εισβολέα να δώσει εντολές στη βάση δεδομένων για να διαρρεύσει αυτή τα δεδομένα της. Διαφορετικές εντολές παίρνουν διαφορετικά 
+                        αποτελέσματα και συχνά ένας εισβολέας θα προσπαθήσει πολλές παραλλαγές για να δει τι θα του δώσει ως απάντηση μια βάση δεδομένων 
+                        σε αυτές. Ένας εισβολέας, για παράδειγμα, μπορεί να στείλει ένα είδος εντολών SQL για να εμφανίσει όλα τα περιεχόμενα μιας βάσης 
+                        δεδομένων στον browser του ή μπορεί να χρησιμοποιήσει άλλες εντολές για να εμφανίσει μέρη της βάσης δεδομένων ή 
+                        για να αποκτήσει την δυνατότητα να προσθέσει, να τροποποιήσει ή να διαγράψει τα περιεχόμενα της βάσης δεδομένων.
+                    </p>
+                </div><!-- Τέλος Background Κειμένου-->
+            </div> <!--Τέλος Κειμένου-->
+
+        </div> <!--Τέλος container-->
+        
+        <!-- Footer -->
+        <footer>
+            <table class="add_footer"></table>
+            <script src="https://grcodeclub.github.io/js/footer.js"></script>       
+        </footer>
+    </body>
+</html>
