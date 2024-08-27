@@ -7,7 +7,7 @@ window.onload = function() {
         '<li><a href="https://grcodeclub.gr/cybersecurity/post">Έγγραφα</a></li>',
         '<li><a href="https://grcodeclub.gr/cybersecurity/orologia">Ορολογία</a></li>',
         '<li><a href="https://grcodeclub.gr/linux">Linux</a></li>';
-        '<li style="height: 200px;"></li>';
+        '<li style="height: 200px;"></li>'
     ];
     
     var $sidebarMenuInners = document.querySelectorAll('.sidebarMenuInner');
