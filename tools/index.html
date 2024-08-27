@@ -2,9 +2,7 @@
     <head>
         <meta property="og:image" content="https://grcodeclub.github.io/file/background/cybersecurity.png"/>
         <meta property="og:title" content="Κυβερνοασφάλεια | Εργαλεία">
-        <script src="https://grcodeclub.github.io/js/jquery.js"></script>
         <script src="https://grcodeclub.github.io/cybersecurity/js/menu.js"></script>
-        <script src="https://grcodeclub.github.io/js/prism.js"></script>
         <script src="https://grcodeclub.github.io/js/add/head.js"></script>
     </head>
 
@@ -14,32 +12,22 @@
             <div id="add_headder_and_menu"></div><script src="https://grcodeclub.gr/js/add/headder_and_menu.js"></script>
 
             <div class="Text"> <!--Αρχή Κειμένου-->
-                <div class="text_bg">
-                    <h1 class="title">Εργαλεία<br>
-                    <div class="search"><input type="input" class="form__field" placeholder="Αναζήτηση..." id='searchInput'/></div>
-                </h1>
-                    <table ID="table" class="style2">
-                        <tr><td colspan="2" style="text-align: center;"><h2>Web</h2></td></tr>
-                        <tr><td><a href="./web/nmap" class="link_open">nmap</a></td> <td>Το Nmap είναι ένα πρόγραμμα για εξερεύνηση δικτύου.</td></tr>
-                        <tr><td><a href="https://portswigger.net/burp/releases#community" class="link_open">Burp Suite</a></td> <td>Το Burp Suite είναι μια ολοκληρωμένη πλατφόρμα για την εκτέλεση δοκιμών ασφαλείας εφαρμογών web.</td></tr>
-                        <tr><td><a href="./web/gobuster" class="link_open">gobuster</a></td> <td> </td></tr>
-                        <tr><td><a href="./web/wpscan" class="link_open">wpscan</a></td> <td> </td></tr>
-
-                        <tr><td colspan="2" style="text-align: center;"><h2>Network</h2></td></tr>
-                        <tr><td><a href="./network/wireshark" class="link_open">wireshark</a></td> <td> </td></tr>
-
-                        <tr><td colspan="2" style="text-align: center;"><h2>Brute-force Attack</h2></td></tr>
-                        <tr><td><a href="" class="link_open">fcrackzip</a></td> <td>Είναι σε θέση να σπάσει αρχεία zip που προστατεύονται με κωδικό πρόσβασης με brute force ή dictionary based attacks</td></tr>
-
-                        <tr><td colspan="2" style="text-align: center;"><h2>Stego</h2></td></tr>
-                        <tr><td><a href="" class="link_open">binwalk</a></td> <td>Το Binwalk είναι ένα εργαλείο που έχει σχεδιαστεί για την αναγνώριση αρχείων και κώδικα που είναι ενσωματωμένα μέσα σε εικόνες.</td></tr>
-                        
-                        <tr><td colspan="2" style="text-align: center;"><h2>Metadata</h2></td></tr>
-                        <tr><td><a href="" class="link_open">exiftool</a></td> <td>Διαβάζει και γραφεί metadata σε αρχεία</td></tr>
-                    </table>
-                                    <script src="https://grcodeclub.github.io/javascript/search/search_table_row_cells_0.js"></script>
-
-                </div><!-- Τέλος Background Κειμένου-->
+                <div class="text_bg"> <!-- Αρχή Background Κειμένου-->
+                   <h1 class="title">Εργαλεία<br><div class="search" id="search"><input style="width: 100%;" type="input" class="form__field" placeholder="Αναζήτηση" id='searchInput'/></div></h1>
+                     <table id="table" class="style2">
+                            <tr id="title-table"><td>Εργαλείο</td><td>Κατηγορία</td><td>Περιγραφή</td></tr>
+                            <tr><td><a href="./web/namp">nmap</a></td><td>Web</td><td>Το Nmap είναι ένα πρόγραμμα για εξερεύνηση δικτύου.</td></tr>
+                            <tr><td>Burp Suite</td><td>Web</td><td>Το Burp Suite είναι μια ολοκληρωμένη πλατφόρμα για την εκτέλεση δοκιμών ασφαλείας εφαρμογών web.</td></tr>
+                            <tr><td><a  href="./web/gobuster">gobuster</a></td><td>Web</td><td>-</td></tr>
+                            <tr><td><a href="./web/wpscan">wpscan</a></td><td>Web</td><td>-</td></tr>
+                            <tr><td><a href="./network/wireshark">wireshark</a></td><td>Network</td><td>-</td></tr>
+                            <tr><td>fcrackzip</td><td>Brute-force Attack</td><td>Είναι σε θέση να σπάσει αρχεία zip που προστατεύονται με κωδικό πρόσβασης με brute force ή dictionary based attacks</td></tr>
+                            <tr><td>binwalk</td><td>Stego</td><td>Το Binwalk είναι ένα εργαλείο που έχει σχεδιαστεί για την αναγνώριση αρχείων και κώδικα που είναι ενσωματωμένα μέσα σε εικόνες.</td></tr>
+                            <tr><td>exiftool</td><td>Metadata</td><td>Διαβάζει και γραφεί metadata σε αρχεία</td></tr>
+                        </table>    
+                     <div class="pagination" id="pagination"></div>
+                     <script src="https://grcodeclub.gr/javascript/search/search-tables-pages.js"></script>
+                    </div><!-- Τέλος Background Κειμένου-->
             </div> <!--Τέλος Κειμένου-->
 
         </div> <!--Τέλος container-->
