@@ -12,7 +12,7 @@
         
         <div class="Text"> <!--ΑΡΧΗ Text-->
             <div class="text_bg">
-                            <a href="https://grcodeclub.gr/cybersecurity/tools/"><h1 id="back_page"></h1></a> <script src="https://grcodeclub.github.io/js/add/back_page.js"></script>
+                            <a href="https://grcodeclub.github.io/cybersecurity/tools/"><h1 id="back_page"></h1></a> <script src="https://grcodeclub.github.io/js/add/back_page.js"></script>
 
             <h1 class="title">Gobuster</h1>
             <u><h2>Gobuster Installation</h2></u>
@@ -33,18 +33,18 @@
                     <li>-w: Ορίζουμε το path από την wordlist που περιχέει τα πιθανά ονόματα αρχείων – καταλογών που θέλουμε να ελεοξύμε αν υπάρχουν στο website. </li>
                 </ol>
             </p>
-            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">gobuster dir -u https://grcodeclub.gr -w [WORDLIST_PATH]</code></pre></div>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">gobuster dir -u https://grcodeclub.github.io -w [WORDLIST_PATH]</code></pre></div>
             <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">gobuster dir -u [IP_TARGET] -w [WORDLIST_PATH]</code></pre></div>  
             <p>Η επιλογή -x καθορίζει τις επεκτάσεις αρχείων που θα δοκιμάσει το Gobuster . Αυτό σημαίνει ότι θα δοκιμάσει διαδρομές και αρχεία με αυτές τις επεκτάσεις.</p>
-            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">gobuster dir -u https://grcodeclub.gr -w ./dir_wordlist.txt -x php,html</code></pre></div>
-            <p>H εντολή χρησιμοποιείται για να ανιχνεύσει πιθανές διαδρομές και αρχεία στον ιστότοπο https://grcodeclub.gr, δοκιμάζοντας αρχεία με τις επεκτάσεις php, html και χρησιμοποιώντας τις διαδρομές που αναφέρονται στο αρχείο ./dir_wordlist.txt.</p>
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">gobuster dir -u https://grcodeclub.github.io -w ./dir_wordlist.txt -x php,html</code></pre></div>
+            <p>H εντολή χρησιμοποιείται για να ανιχνεύσει πιθανές διαδρομές και αρχεία στον ιστότοπο https://grcodeclub.github.io, δοκιμάζοντας αρχεία με τις επεκτάσεις php, html και χρησιμοποιώντας τις διαδρομές που αναφέρονται στο αρχείο ./dir_wordlist.txt.</p>
             <h2>Mode: dns</h2>
             <p>
                 <ol>
                     <li>-w: Ορίζουμε το path από την wordlist που περιχέει τα πιθανά subdomain που θέλουμε να ελεξούμε αν υπάρχουν. </li>
                 </ol>
             </p>
-            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">gobuster dns -d grcodeclub.gr -w ./common.txt</code></pre></div>  
+            <div class="terminal"><pre class="command-line" data-user="grcodeclub" data-host="linux"><code class="language-bash">gobuster dns -d grcodeclub.github.io -w ./common.txt</code></pre></div>  
 
         </div> <!--ΤΕΛΟΣ Text-->
 
